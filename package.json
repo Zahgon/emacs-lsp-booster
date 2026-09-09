@@ -1,0 +1,27 @@
+{
+  "name": "emacs-lsp-booster",
+  "version": "0.2.1",
+  "description": "Emacs LSP performance booster (JavaScript port of blahgeek/emacs-lsp-booster)",
+  "homepage": "https://github.com/blahgeek/emacs-lsp-booster",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "bin": {
+    "emacs-lsp-booster": "bin/emacs-lsp-booster.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "keywords": [
+    "emacs",
+    "lsp"
+  ]
+}
